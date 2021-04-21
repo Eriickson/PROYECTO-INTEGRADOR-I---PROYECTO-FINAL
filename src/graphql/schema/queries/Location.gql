@@ -1,0 +1,6 @@
+type Query {
+  getProvinces(value: ID, skip: Int, take: Int): [Option!]!
+  getMunicipalities(value: ID, provinceId: ID): [Option!]!
+  getSectors(value: ID, municipalityId: ID): [Option!]!
+  getCountries(value: ID): [Option!]!
+}

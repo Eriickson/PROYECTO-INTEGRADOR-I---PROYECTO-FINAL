@@ -1,0 +1,15 @@
+type ResponseType {
+  title: String!
+  message: String!
+  typeAlert: typeAlertEnum!
+  labelBtnPri: String!
+}
+
+enum typeAlertEnum {
+  SUCCESS
+  WARNING
+  DANGER
+  INFO
+  NEUTRAL
+  BRAND
+}

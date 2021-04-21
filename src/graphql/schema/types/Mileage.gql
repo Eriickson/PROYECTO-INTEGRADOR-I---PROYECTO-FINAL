@@ -1,0 +1,13 @@
+type Mileage {
+  unit: MileageEnum
+  value: Int
+}
+input MileageInput {
+  unit: MileageEnum
+  value: Int
+}
+
+enum MileageEnum {
+  KM
+  MI
+}

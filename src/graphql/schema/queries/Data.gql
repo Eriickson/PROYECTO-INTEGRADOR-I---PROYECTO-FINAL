@@ -1,0 +1,15 @@
+type Query {
+  getBrands(value: ID): [Option!]!
+  getModels(value: ID, idBrand: ID): [Option!]!
+  getVehicleCategories(valueVehicleCategory: ID): [Option!]!
+  getConditions(valueContidition: ID): [Option!]!
+  getColors(valueColor: ID): [Option!]!
+  getFuels(valueFuel: ID): [Option!]!
+  getTractions(valueTraction: ID): [Option!]!
+  getTransmissions(valueTransmission: ID): [Option!]!
+  getAccesories(value: ID): [Option!]!
+  getFeatures(value: ID): [Option!]!
+  getVersions(value: ID): [Option!]!
+  getIncludeds(value: ID): [Option!]!
+  getTypeModel(idModel: ID): [Option!]!
+}

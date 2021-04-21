@@ -1,0 +1,22 @@
+[
+  {
+    "value": 1,
+    "label": "Gasolina"
+  },
+  {
+    "value": 2,
+    "label": "Diésel/Gasoil"
+  },
+  {
+    "value": 3,
+    "label": "Gas/GLP"
+  },
+  {
+    "value": 4,
+    "label": "Eléctrico"
+  },
+  {
+    "value": 5,
+    "label": "Híbrido"
+  }
+]

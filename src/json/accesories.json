@@ -1,0 +1,17 @@
+[
+  { "value": 1, "label": "Música Personalizada" },
+  { "value": 2, "label": "Interior Personalizado" },
+  { "value": 3, "label": "Aros personalizados" },
+  { "value": 4, "label": "Bolsa de aire" },
+  { "value": 5, "label": "Cámara trasera" },
+  { "value": 6, "label": "Cámara frontal" },
+  { "value": 7, "label": "Calefacción" },
+  { "value": 8, "label": "Alarma" },
+  { "value": 9, "label": "Defensa trasera" },
+  { "value": 10, "label": "Defensa delantera" },
+  { "value": 11, "label": "Radio" },
+  { "value": 12, "label": "Llave inteligente" },
+  { "value": 13, "label": "Tv" },
+  { "value": 14, "label": "Sensores de parqueo" },
+  { "value": 15, "label": "Vidrios eléctricos" }
+]

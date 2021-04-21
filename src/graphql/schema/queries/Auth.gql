@@ -1,0 +1,31 @@
+type Query {
+  login(email: String, provider: String!): LoginPayload!
+  verifyTokenNewUser(token: String!): VerifyTokenNewUserPayload!
+  generateTokenApiGraphlQL(email: String!): GenerateTokenApiGraphlQLPayload
+  signin(identifier: String!, password: String!): SigninPayload!
+}
+
+type LoginPayload {
+  token: String!
+  isNewUser: Boolean!
+}
+
+type VerifyTokenNewUserPayload {
+  email: String
+  isNewUser: Boolean!
+}
+
+type GenerateTokenApiGraphlQLPayload {
+  token: String!
+  name: String!
+  picture: String!
+  userId: ID!
+  agencyId: ID
+}
+
+type SigninPayload {
+  name: String
+  email: String
+  picture: String
+  userId: String
+}

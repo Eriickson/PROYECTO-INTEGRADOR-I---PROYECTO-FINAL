@@ -1,0 +1,7 @@
+type Query {
+  getPlans: GetPlansPayload
+}
+
+type GetPlansPayload {
+  plans: [Plan]
+}

@@ -1,0 +1,4 @@
+type Mutation {
+  addFiles(files: [Upload]!): [String]!
+  addFile(file: Upload!): String!
+}

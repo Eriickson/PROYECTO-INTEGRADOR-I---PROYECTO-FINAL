@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true,
+    "commonjs": true
+  },
+  "extends": ["standard"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "quotes": [2, "double"],
+    "semi": "off",
+    "comma-dangle": [2, "always-multiline"],
+    "space-before-function-paren": "off",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "no-unreachable": "off"
+  }
+}

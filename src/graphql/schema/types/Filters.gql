@@ -1,0 +1,21 @@
+input StringFilter {
+  contains: String
+  endsWith: String
+  eq: String
+  gt: String
+  gte: String
+  in: [String!]
+  lt: String
+  lte: String
+  not: String
+  notIn: [String!]
+  startsWith: String
+}
+
+# input UserWhereInput {
+#   AND: [UserWhereInput!]
+#   dd: DateTimeFilter
+#   id: StringFilter
+#   NOT: [UserWhereInput!]
+#   OR: [UserWhereInput!]
+# }

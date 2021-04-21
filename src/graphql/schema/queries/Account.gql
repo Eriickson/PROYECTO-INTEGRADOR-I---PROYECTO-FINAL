@@ -1,0 +1,5 @@
+type Query {
+  registerAccount(email: String!): ResponseType!
+  verifyAccount(email: String!, code: String!): String!
+  verifyTokenNewAccount(token: String!): String!
+}

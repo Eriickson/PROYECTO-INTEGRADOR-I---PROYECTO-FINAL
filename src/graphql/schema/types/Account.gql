@@ -1,0 +1,6 @@
+type Account {
+  email: String
+  pin: String
+  send: String
+  confirmed: String
+}

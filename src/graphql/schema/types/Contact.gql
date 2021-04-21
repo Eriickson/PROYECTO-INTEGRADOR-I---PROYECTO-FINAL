@@ -1,0 +1,24 @@
+type Contact {
+  numberPhones: [TitleValue!]!
+  emails: [TitleValue!]!
+}
+input ContactInput {
+  numberPhones: [TitleValueInput!]!
+  emails: [TitleValueInput!]!
+}
+type TitleValue {
+  label: String!
+  value: String!
+}
+input TitleValueInput {
+  label: String!
+  value: String!
+}
+
+input UserInfoInput {
+  fullName: String!
+  email: String!
+  numberPhone: String!
+  theme: String!
+  message: String!
+}

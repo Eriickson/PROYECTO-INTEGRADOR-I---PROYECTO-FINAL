@@ -1,0 +1,8 @@
+type Mutation {
+  signin(identifier: String!, password: String!): SigninResponse!
+}
+
+type SigninResponse {
+  token: String
+  expiresIn: Int
+}

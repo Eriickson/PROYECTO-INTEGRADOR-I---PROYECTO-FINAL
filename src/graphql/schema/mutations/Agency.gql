@@ -1,0 +1,7 @@
+type Mutation {
+  createAgency(agency: AgencyInput!, userId: ID!): CreateAgencyPayload!
+}
+
+type CreateAgencyPayload {
+  token: String
+}

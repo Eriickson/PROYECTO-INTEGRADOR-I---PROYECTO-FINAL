@@ -1,0 +1,43 @@
+type Usuario {
+  id: ID
+  email: String
+  name: String
+  publicaciones: [Publicacion]
+}
+
+type Publicacion {
+  id: ID
+  createdAt: String
+  updatedAt: String
+  title: String
+  content: String
+  published: String
+  author: User
+  authorId: ID
+}
+input UsuarioInput {
+  email: String
+  name: String
+}
+
+input PublicacionInput {
+  id: ID
+  createdAt: String
+  updatedAt: String
+  title: String
+  content: String
+  published: String
+  authorId: ID
+}
+
+type Query {
+  obtenerUsuarios: [Usuario!]!
+  exampleInteface(example: OptionInput): String
+}
+
+type Mutation {
+  crearUsuario(nuevoUsuario: UsuarioInput!): Usuario
+}
+type Query {
+  testTime: String
+}

@@ -1,0 +1,8 @@
+type Score {
+  title: String
+  score: Int
+}
+input ScoreInput {
+  title: String
+  score: Int
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "gratis",
+    "description": "",
+    "price": {
+      "currency": "DOP",
+      "amount": 0
+    },
+    "benefits": {
+      "posts": 3,
+      "postLimit": 7,
+      "images": 7
+    }
+  },
+  {
+    "name": "Principiante",
+    "description": "",
+    "price": {
+      "currency": "DOP",
+      "amount": 4000
+    },
+    "benefits": {
+      "posts": 10,
+      "postLimit": 15,
+      "images": 0
+    }
+  },
+  {
+    "name": "Básico",
+    "description": "",
+    "price": {
+      "currency": "DOP",
+      "amount": 7000
+    },
+    "benefits": {
+      "posts": 25,
+      "postLimit": 37,
+      "images": 10
+    }
+  },
+  {
+    "name": "Pro",
+    "description": "",
+    "price": {
+      "currency": "DOP",
+      "amount": 10000
+    },
+    "benefits": {
+      "posts": 50,
+      "postLimit": 75,
+      "images": 15
+    }
+  },
+  {
+    "name": "Premium",
+    "description": "",
+    "price": {
+      "currency": "DOP",
+      "amount": 15000
+    },
+    "benefits": {
+      "posts": 100,
+      "postLimit": 150,
+      "images": 15
+    }
+  }
+]

@@ -1,0 +1,34 @@
+type Mutation {
+  addAccessories(newAccessories: [OptionInput]!): String!
+  addFuels(newFuels: [OptionInput]!): String!
+  addFeatures(newFeatures: [OptionInput]!): String!
+  addColors(newColors: [OptionInput]!): String!
+  addConditions(newConditions: [OptionInput]!): String!
+  addTractions(newTractions: [OptionInput]!): String!
+  addTransmissions(newTransmissions: [OptionInput]!): String!
+  addVehicleCategories(newVehicleCategories: [OptionInput]!): String!
+  addVersions(newVersions: [OptionInput]!): String!
+  addBrands(newBrands: [OptionInput]!): String!
+  addModels(newModels: [ModelInput]!): String!
+  addTypeModel(newTypeModel: [TypeModelInput]!): String!
+  addProvinces(newProvinces: [OptionInput]!): String!
+  addMunicipalities(newMunicipalities: [OptionInput]!): String!
+  addSectors(newSectors: [SectorInput]!): String!
+  addIncluded(newIncluded: [OptionInput]!): String!
+}
+
+input SectorInput {
+  label: String!
+  municipality: String!
+}
+
+input ModelInput {
+  brand: ID
+  label: String
+}
+
+input TypeModelInput {
+  brand: ID
+  model: ID
+  label: String
+}

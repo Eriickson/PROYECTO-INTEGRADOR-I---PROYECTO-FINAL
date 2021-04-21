@@ -1,0 +1,5 @@
+type Query {
+  getBrands(value: ID): [Option!]!
+  getModels(value: ID, idModel: ID): [Option!]!
+  getColetillas(valueColetilla: ID, idModel: ID, idBrand: ID): [Option!]!
+}

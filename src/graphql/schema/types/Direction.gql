@@ -1,0 +1,13 @@
+type Direction {
+  province: Option
+  municipality: Option
+  sector: Option
+  reference: String
+}
+
+input DirectionInput {
+  province: ID!
+  municipality: ID!
+  sector: ID!
+  reference: String
+}

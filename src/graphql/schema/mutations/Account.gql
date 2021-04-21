@@ -1,0 +1,9 @@
+type Mutation {
+  registerAccount(email: String!): ResponseType!
+  verifyAccount(email: String!, code: String!): String!
+  createTokenRegister(email: String!, provider: String!): CreateTokenRegisterPayload
+}
+
+type CreateTokenRegisterPayload {
+  token: String!
+}

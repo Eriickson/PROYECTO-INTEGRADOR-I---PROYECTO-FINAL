@@ -1,0 +1,9 @@
+[
+  { "value": 1, "label": "Alemana" },
+  { "value": 2, "label": "Americana" },
+  { "value": 3, "label": "China" },
+  { "value": 4, "label": "Europea" },
+  { "value": 5, "label": "Japonesa" },
+  { "value": 6, "label": "Mexicana" },
+  { "value": 7, "label": "Otra" }
+]

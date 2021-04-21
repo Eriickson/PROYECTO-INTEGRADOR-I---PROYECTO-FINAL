@@ -1,0 +1,36 @@
+type Agency {
+  id: ID
+  uuid: ID
+  name: String
+  logo: String
+  slogan: String
+  description: String
+  slug: String
+  occupation: OccupationEnum
+  posts: [Post]
+  contacts: Contact
+  status: String
+  createdAt: String
+  inabilitedAt: [InabilitedAt]
+  owner: User
+  ubication: Ubication
+}
+input AgencyInput {
+  name: String!
+  logo: PictureInput!
+  slogan: String!
+  ubication: UbicationInput!
+  contacts: ContactInput!
+  isProfessional: Boolean!
+}
+
+input AgencySearchFilter {
+  name: String!
+  isProfessional: Boolean!
+  occupation: OccupationEnum!
+}
+
+enum OccupationEnum {
+  SALE
+  RENT
+}

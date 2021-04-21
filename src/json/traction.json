@@ -1,0 +1,18 @@
+[
+  {
+    "value": 1,
+    "label": "Tracción total permanente (AWD)"
+  },
+  {
+    "value": 2,
+    "label": "Tracción total (4WD)"
+  },
+  {
+    "value": 3,
+    "label": "Tracción delantera (FWD)"
+  },
+  {
+    "value": 4,
+    "label": "Tracción trasera (RWD)"
+  }
+]

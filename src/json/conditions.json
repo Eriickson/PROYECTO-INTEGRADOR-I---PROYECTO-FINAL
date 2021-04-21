@@ -1,0 +1,22 @@
+[
+  {
+    "value": 1,
+    "label": "Nuevo"
+  },
+  {
+    "value": 2,
+    "label": "Como nuevo"
+  },
+  {
+    "value": 3,
+    "label": "Buenas Condiciones"
+  },
+  {
+    "value": 4,
+    "label": "Condiciones aceptables"
+  },
+  {
+    "value": 5,
+    "label": "Para repuestos"
+  }
+]

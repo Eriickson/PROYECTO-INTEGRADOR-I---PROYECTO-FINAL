@@ -1,0 +1,42 @@
+[
+  {
+    "value": 1,
+    "label": "Amarillo"
+  },
+  {
+    "value": 2,
+    "label": "Rosado"
+  },
+  {
+    "value": 3,
+    "label": "Morado"
+  },
+  {
+    "value": 4,
+    "label": "Azúl"
+  },
+  {
+    "value": 5,
+    "label": "Naranja"
+  },
+  {
+    "value": 6,
+    "label": "Verde"
+  },
+  {
+    "value": 7,
+    "label": "Blanco"
+  },
+  {
+    "value": 8,
+    "label": "Gris"
+  },
+  {
+    "value": 9,
+    "label": "Rojo"
+  },
+  {
+    "value": 10,
+    "label": "Negro"
+  }
+]

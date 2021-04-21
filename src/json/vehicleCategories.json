@@ -1,0 +1,34 @@
+[
+  {
+    "value": 1,
+    "label": "Micro"
+  },
+  {
+    "value": 2,
+    "label": "Sedán"
+  },
+  {
+    "value": 3,
+    "label": "Jeepeta"
+  },
+  {
+    "value": 4,
+    "label": "Hatchback"
+  },
+  {
+    "value": 5,
+    "label": "Camionetas"
+  },
+  {
+    "value": 6,
+    "label": "Minivan"
+  },
+  {
+    "value": 7,
+    "label": "Van"
+  },
+  {
+    "value": 8,
+    "label": "Coupé"
+  }
+]

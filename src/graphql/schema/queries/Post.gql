@@ -1,0 +1,26 @@
+type Query {
+  getPost(uuid: ID!): GetPostPayload!
+  getRecentPosts: GetRecentPostsPayload!
+  getMyPosts(agencyId: ID!): GetMyPostsPayload!
+  getPostToUpdate(uuid: ID!): Post!
+  updatePost(uuid: ID!): Post!
+  searchPosts(searchPostFilter: SearchPostFilter!): SearchPostPayload
+}
+
+type GetPostPayload {
+  post: Post!
+}
+
+type GetMyPostsPayload {
+  posts: [Post!]!
+}
+
+type GetRecentPostsPayload {
+  posts: [Post!]!
+}
+
+type SearchPostPayload {
+  posts: [Post!]
+  brandModels: [Option!]
+  typesModels: [Option!]
+}

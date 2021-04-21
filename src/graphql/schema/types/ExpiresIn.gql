@@ -1,0 +1,4 @@
+type ExpiresIn {
+  value: Int
+  unit: String
+}

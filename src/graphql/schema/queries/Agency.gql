@@ -1,0 +1,15 @@
+type Query {
+  getMyAgency(userId: ID!): GetMyAgencyPayload!
+  searchAgency(filter: AgencySearchFilter!): [Agency!]!
+  getAgency(uuid: ID!): Agency
+  getAgencyProfile(uuid: ID!): GetAgencyProfilePayload!
+}
+
+type GetMyAgencyPayload {
+  myAgency: Agency!
+}
+
+type GetAgencyProfilePayload {
+  agency: Agency!
+  posts: [Post!]!
+}

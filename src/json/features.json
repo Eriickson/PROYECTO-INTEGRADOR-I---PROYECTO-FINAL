@@ -1,0 +1,11 @@
+[
+  { "value": 1, "label": "Nunca chocado" },
+  { "value": 2, "label": "Pintura de fábrica" },
+  { "value": 3, "label": "Cabina doble" },
+  { "value": 4, "label": "Cabina simple" },
+  { "value": 5, "label": "Retrovisores eléctricos" },
+  { "value": 6, "label": "Puertas eléctricas" },
+  { "value": 7, "label": "Motor de fábrica" },
+  { "value": 8, "label": "Seguro eléctricos" },
+  { "value": 9, "label": "Techo panorámico" }
+]

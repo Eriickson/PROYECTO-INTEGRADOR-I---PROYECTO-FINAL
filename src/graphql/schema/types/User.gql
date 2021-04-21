@@ -1,0 +1,44 @@
+type User {
+  id: ID
+  name: String
+  lastname: String
+  birthday: String
+  nationality: Option
+  sex: SexEnum
+  direction: Direction
+  username: String
+  email: String
+  password: String
+  profilePicture: String
+  contacts: Contact
+  savedPosts: [Post]
+  agency: Agency
+  createdAt: String
+  inabilitedAt: [String]
+  removedAt: RemovedAt
+  useType: UseTypeEnum
+  plan: Plan
+  addedPosts: Int
+  uploadingPost: Boolean
+}
+input UserInput {
+  profilePicture: PictureInput!
+  name: String!
+  lastname: String!
+  birthday: String!
+  nationality: ID!
+  sex: SexEnum!
+  direction: DirectionInput!
+  username: String!
+  password: String!
+}
+
+enum UseTypeEnum {
+  PERSONAL
+  AGENCY
+}
+
+enum SexEnum {
+  F
+  M
+}

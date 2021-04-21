@@ -1,0 +1,20 @@
+type Province {
+  label: String
+  value: String
+}
+type Municipality {
+  label: String
+  value: String
+}
+type Sector {
+  label: String
+  value: String
+}
+type Brand {
+  label: String
+  value: String
+}
+type Model {
+  label: String
+  value: String
+}

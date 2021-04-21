@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "province": "Distrito Nacional"
+  },
+  {
+    "id": 21,
+    "province": "San Pedro de Macorís"
+  },
+  {
+    "id": 22,
+    "province": "La Romana"
+  },
+  {
+    "id": 23,
+    "province": "La Altagracia"
+  },
+  {
+    "id": 24,
+    "province": "El Seibo"
+  },
+  {
+    "id": 25,
+    "province": "Hato Mayor"
+  },
+  {
+    "id": 31,
+    "province": "Duarte"
+  },
+  {
+    "id": 32,
+    "province": "Samaná"
+  },
+  {
+    "id": 33,
+    "province": "Maria Trinidad Sánchez"
+  },
+  {
+    "id": 34,
+    "province": "Salcedo"
+  },
+  {
+    "id": 41,
+    "province": "La Vega"
+  },
+  {
+    "id": 42,
+    "province": "Monseñor Nouel"
+  },
+  {
+    "id": 43,
+    "province": "Sánchez Ramirez"
+  },
+  {
+    "id": 51,
+    "province": "Santiago"
+  },
+  {
+    "id": 56,
+    "province": "Espaillat"
+  },
+  {
+    "id": 57,
+    "province": "Puerto Plata"
+  },
+  {
+    "id": 61,
+    "province": "Valverde"
+  },
+  {
+    "id": 62,
+    "province": "Monte Cristi"
+  },
+  {
+    "id": 63,
+    "province": "Dajabón"
+  },
+  {
+    "id": 64,
+    "province": "Santiago Rodríguez"
+  },
+  {
+    "id": 71,
+    "province": "Azua"
+  },
+  {
+    "id": 72,
+    "province": "San Juan de la Maguana"
+  },
+  {
+    "id": 73,
+    "province": "Elías Piña"
+  },
+  {
+    "id": 81,
+    "province": "Barahona"
+  },
+  {
+    "id": 82,
+    "province": "Bahoruco"
+  },
+  {
+    "id": 83,
+    "province": "Independencia"
+  },
+  {
+    "id": 84,
+    "province": "Perdenales"
+  },
+  {
+    "id": 91,
+    "province": "San Cristóbal"
+  },
+  {
+    "id": 92,
+    "province": "Monte Plata"
+  },
+  {
+    "id": 93,
+    "province": "San José de Ocoa"
+  },
+  {
+    "id": 94,
+    "province": "Peravia"
+  }
+]

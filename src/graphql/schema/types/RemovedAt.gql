@@ -1,0 +1,8 @@
+type RemovedAt {
+  msg: String
+  datetime: String
+}
+input RemovedAtInput {
+  msg: String
+  datetime: String
+}

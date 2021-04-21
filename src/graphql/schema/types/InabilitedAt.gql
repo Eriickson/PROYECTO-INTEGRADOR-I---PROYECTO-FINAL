@@ -1,0 +1,8 @@
+type InabilitedAt {
+  msg: String
+  datetime: String
+}
+input InabilitedAtInput {
+  msg: String
+  datetime: String
+}

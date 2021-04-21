@@ -1,0 +1,7 @@
+type Ubication {
+  direction: Direction
+}
+
+input UbicationInput {
+  direction: DirectionInput
+}

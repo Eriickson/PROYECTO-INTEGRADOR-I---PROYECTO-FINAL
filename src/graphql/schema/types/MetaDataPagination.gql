@@ -1,0 +1,12 @@
+type MetaDataPagination {
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}

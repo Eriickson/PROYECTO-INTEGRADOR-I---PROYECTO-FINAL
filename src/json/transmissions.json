@@ -1,0 +1,18 @@
+[
+  {
+    "value": 1,
+    "label": "Transmisión automática (AT)"
+  },
+  {
+    "value": 2,
+    "label": "Transmisión manual (MT)"
+  },
+  {
+    "value": 3,
+    "label": "Transmisión manual Automatizada (AMT)"
+  },
+  {
+    "value": 4,
+    "label": "Transmisión continuamente variable (CVT)"
+  }
+]

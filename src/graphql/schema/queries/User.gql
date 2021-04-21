@@ -1,0 +1,11 @@
+type Query {
+  getMyProfile(userId: ID!): GetMyProfilePayload
+}
+
+type GetMyProfilePayload {
+  user: User
+  nationalities: [Option]
+  provinces: [Option]
+  municipalities: [Option]
+  sectors: [Option]
+}

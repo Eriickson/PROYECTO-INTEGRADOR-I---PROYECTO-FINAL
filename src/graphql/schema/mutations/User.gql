@@ -1,0 +1,13 @@
+type Mutation {
+  registerUser(user: UserInput!): RegisterUserPayload!
+  resetPassword(email: String!): String!
+  contactsUs(userInfo: UserInfoInput!): ContactsUsPayload!
+}
+
+type RegisterUserPayload {
+  userCreated: Boolean
+}
+
+type ContactsUsPayload {
+  msg: String!
+}

@@ -1,0 +1,6 @@
+type Mutation {
+  createPlan(plan: PlanInput!): CreatePlanPayload
+}
+type CreatePlanPayload {
+  msg: String
+}

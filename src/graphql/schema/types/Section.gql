@@ -1,0 +1,12 @@
+type Section {
+  title: String
+  subtitle: String
+  imageCover: String
+  images: [String]
+}
+input SectionInput {
+  title: String
+  subtitle: String
+  imageCover: String
+  images: [String]
+}

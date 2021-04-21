@@ -1,0 +1,16 @@
+type BranchOffice {
+  id: ID
+  uuid: ID
+  name: String
+  agency: Agency
+  garage: [Post]
+  isSede: Boolean
+  ubication: Direction
+  contacts: Contact
+  state: String
+}
+input BranchOfficeInput {
+  name: String!
+  ubication: DirectionInput!
+  contacts: ContactInput
+}
