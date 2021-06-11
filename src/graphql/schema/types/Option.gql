@@ -4,6 +4,7 @@ type Option {
   createdAt: String
   updatedAt: String
 }
+
 input OptionInput {
   label: String!
   value: String

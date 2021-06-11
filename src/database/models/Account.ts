@@ -1,5 +1,4 @@
 import { Schema, model, Document } from "mongoose";
-import uniqueValidator from "mongoose-unique-validator";
 
 export interface IAccount extends Document {
   email: string;
@@ -36,9 +35,5 @@ const accountSchema: Schema<IAccountSchema> = new Schema(
   },
   { versionKey: false, timestamps: true },
 );
-
-accountSchema.plugin(uniqueValidator, {
-  message: "Lo sentimos pero el {PATH} {VALUE} ya está registrado.",
-});
 
 export const Account = model("Account", accountSchema);
